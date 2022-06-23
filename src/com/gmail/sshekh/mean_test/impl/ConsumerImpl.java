@@ -1,4 +1,6 @@
-package com.gmail.sshekh.mean_test;
+package com.gmail.sshekh.mean_test.impl;
+
+import com.gmail.sshekh.mean_test.Consumer;
 
 import java.util.LinkedList;
 

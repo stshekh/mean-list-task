@@ -1,8 +1,10 @@
 package com.gmail.sshekh.mean_test;
 
+import com.gmail.sshekh.mean_test.impl.ConsumerImpl;
+
 import java.util.concurrent.ThreadLocalRandom;
 
-public class MeanTask {
+public class MeanTaskMain {
     public static void main(String[] args) throws InterruptedException {
         Consumer consumer = new ConsumerImpl();
         long start = System.currentTimeMillis();
